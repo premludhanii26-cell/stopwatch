@@ -10,15 +10,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color: black;
 }
 
 .container {
-  background: white;
+  background: whitesmoke;
   padding: 30px;
   border-radius: 10px;
   text-align: center;
   width: 300px;
+  border-radius: 10%;
 }
 
 h1 {
@@ -40,16 +41,19 @@ h2 {
 }
 
 #start {
-  background-color: #4caf50;
+  background-color: saddlebrown;
   color: white;
+  font-style: italic;
 }
 
 #stop {
-  background-color: #f44336;
+  background-color: red;
   color: white;
+  font-style: italic;
 }
 
 #reset {
   background-color: #2196f3;
   color: white;
+  font-style: italic;
 }
