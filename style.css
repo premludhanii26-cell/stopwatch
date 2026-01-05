@@ -24,6 +24,10 @@ body {
 
 h1 {
   margin-bottom: 20px;
+  color: red;
+  text-decoration: underline;
+  font-style: italic;
+  background-color: aliceblue;
 }
 
 h2 {
