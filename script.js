@@ -8,7 +8,6 @@ let minutes = 0;
 let hours = 0;
 let timer = null;
 
-// Update stopwatch display
 function updateDisplay() {
   let h = hours < 10 ? "0" + hours : hours;
   let m = minutes < 10 ? "0" + minutes : minutes;
@@ -17,7 +16,6 @@ function updateDisplay() {
   display.textContent = `${h}:${m}:${s}`;
 }
 
-// Start stopwatch
 startBtn.addEventListener("click", function () {
   if (timer !== null) return;
 
@@ -38,13 +36,11 @@ startBtn.addEventListener("click", function () {
   }, 1000);
 });
 
-// Stop stopwatch
 stopBtn.addEventListener("click", function () {
   clearInterval(timer);
   timer = null;
 });
 
-// Reset stopwatch
 resetBtn.addEventListener("click", function () {
   clearInterval(timer);
   timer = null;
